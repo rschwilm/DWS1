@@ -1,0 +1,64 @@
+body {
+	background-color: rgb(105, 208, 73);
+	width: 700px;
+	margin: auto;}
+	
+h2 {
+	font-family: Andale Mono, Georgia, default;
+	font-size: 20px;
+	display: inline;}
+	
+h3{
+	font-family: Andale Mono, default;
+	font-size: 15px;}
+	
+figure:hover {
+	opacity: 0.3;
+	box-shadow: 3px 3px 25px #ffffff;
+	border: 1px solid;
+	padding: 5px;
+	margin: 30px;}
+	
+figure {
+	border: 1px solid;
+	padding: 5px;
+	width: 650px;
+	height: 490px;
+	margin: 30px;}
+	
+figcaption {
+	font-style: italic;}
+	
+h1 {
+	font-family: 'Cherry Swash', cursive;
+	font-weight: bold;
+	text-shadow: 3px 3px 7px #ffffff;
+	border: 2px solid;
+    border-radius: 25px;
+    text-align: center;
+    padding: 5px 5px 5px 5px;}
+
+p {
+	background-color: hsla(109, 100%, 28%, 0.45);
+	box-shadow: 3px 3px 25px #ffffff;
+	text-align: center;
+	line-height: 20px;
+	padding: 5px;}
+	
+ul {
+	box-shadow: 3px 3px 25px #ffffff;
+	background-color: hsla(109, 100%, 28%, 0.45);}
+	
+ol#roman{
+	list-style-type: lower-roman;
+	background-color: hsla(109, 100%, 28%, 0.45);
+	box-shadow: 3px 3px 25px #ffffff;}
+	
+a:link {
+	color: #0e4e00;}
+a:visited {
+	color: #4ac321;}
+a:hover {
+	color: #e9833b;}
+a:active {
+	color: #cf5f10;}
