@@ -1,0 +1,107 @@
+/*css style sheet*/
+/*formatting for h1 elements*/		
+h1 {
+	font-family: 'Cherry Swash', cursive;
+	font-weight: bold;
+	text-shadow: 3px 3px 7px #ffffff;
+	border: 2px solid;
+    border-radius: 25px;
+    text-align: center;
+    padding: 5px 5px 5px 5px;}
+
+/*body design*/
+body {
+	background-color: rgb(105, 208, 73);
+	width: 85%;
+	margin: auto;
+	background-image: url("../images/pattern.gif");
+	background-repeat: repeat-x;
+	background-position: top;}
+
+#info {
+	margin-top: 22%;}
+
+/*formatting for h2 elements*/	
+h2 {
+	font-family: Andale Mono, Georgia, default;
+	font-size: 1.250em;
+	padding: 20px 0px 0px 0px;
+	background-image: url("../images/fruit47.gif");
+    background-repeat: no-repeat;
+    background-position: top left;}
+
+/*formatting for h3 elements*/		
+h3{
+	font-family: Andale Mono, default;
+	font-size: 0.938em;}
+
+/*formatting for user hovering over the figure*/		
+figure:hover {
+	opacity: 0.3;
+	box-shadow: 3px 3px 25px #ffffff;
+	border: 1px solid;
+	padding: 5%;
+	margin: 3.5%;
+	overflow: hidden;}
+	
+/*formatting for figure element*/		
+figure {
+	border: 1px solid;
+	padding: 5px;
+	width: 650px;
+	height: 490px;
+	margin: 30px;}
+
+/*formatting for figure caption*/		
+figcaption {
+	font-style: italic;}
+	
+
+
+/*formatting for body text in page*/	
+p {
+	box-shadow: 3px 3px 25px #ffffff;
+	text-align: center;
+	line-height: 20px;
+	padding: 3%;
+	background: linear-gradient(to right,  rgba(180,227,145,1) 0%,rgba(97,196,25,1) 50%,rgba(180,227,145,1) 100%); /* W3C */
+}
+
+/*formatting for unordered lists*/		
+ul li {
+	display: inline;
+	margin: 1.5%;
+	float: right;}
+
+/*formatting for ordered lists with an id of roman*/		
+ol#roman{
+	list-style-type: lower-roman;
+	background-color: hsla(109, 100%, 28%, 0.45);
+	box-shadow: 3px 3px 25px #ffffff;
+	background: linear-gradient(to right,  rgba(180,227,145,1) 0%,rgba(97,196,25,1) 50%,rgba(180,227,145,1) 100%); /* W3C */}
+	
+/*formatting for links*/		
+a:link {
+	color: #0e4e00;}
+a:visited {
+	color: #4ac321;}
+a:hover {
+	color: #e9833b;}
+a:active {
+	color: #cf5f10;}
+	
+#leftContent {
+	float: left;
+	width: 32%;
+	padding: 5%;
+	margin:1.5%;}
+	
+#leftPic {
+	float:left;
+	clear: both;}
+	
+#contentRight {
+	float: right;
+	width: 32%;
+	padding: 5%;
+	margin:1.5%;}
